@@ -1,0 +1,28 @@
+//Checking string Ending with
+function confirmEnding(str, target) {
+  var b; 
+  str= reverString(str)
+  //console.log(str)
+  target = reverString(target)
+  //console.log(target)
+  for(var i=0 ;i < target.length ; i++)
+  {
+    if(target[i] == str[i])
+        b = true
+    else 
+        b = false
+  }
+  return b;
+}
+//Reverse Function
+function reverString(str)
+{
+  var arr = str.split("")
+  arr.reverse()
+  str= arr.join()
+  str.replace(/\,/g,"")
+  return str
+}
+
+//Calling Function
+confirmEnding("Bastian", "n");
