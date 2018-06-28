@@ -1,5 +1,5 @@
 *************************************************************************************************************************************
-						                                        	DESCRIPTION
+						                                                DESCRIPTION
 
 Check if a value is classified as a boolean primitive. Return true or false.
 Boolean primitives are true and false.
@@ -7,7 +7,7 @@ Boolean primitives are true and false.
 *************************************************************************************************************************************
 
 *************************************************************************************************************************************
-						                                        	  EXAMPLE
+						                                        	          EXAMPLE
 
 -> booWho(true) should return true.
 -> booWho(false) should return true.
